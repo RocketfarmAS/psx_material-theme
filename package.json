@@ -1,0 +1,12 @@
+{
+  "name": "angular-material-theme-polyscope-x",
+  "version": "1.0.0",
+  "main": "index.scss",
+  "style": "index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rocketfarm AS",
+  "license": "MIT",
+  "description": ""
+}
