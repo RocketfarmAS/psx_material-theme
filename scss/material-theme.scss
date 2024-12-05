@@ -1,14 +1,14 @@
-.mat-ripple {
+::ng-deep .mat-ripple {
     overflow: hidden;
     position: relative;
   }
-  .mat-ripple:not(:empty) {
+  ::ng-deep .mat-ripple:not(:empty) {
     transform: translateZ(0);
   }
-  .mat-ripple.mat-ripple-unbounded {
+  ::ng-deep .mat-ripple.mat-ripple-unbounded {
     overflow: visible;
   }
-  .mat-ripple-element {
+  ::ng-deep .mat-ripple-element {
     position: absolute;
     border-radius: 50%;
     pointer-events: none;
