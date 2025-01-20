@@ -4,9 +4,12 @@
   "main": "index.scss",
   "style": "index.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write scss/**/*.scss"
   },
   "author": "Rocketfarm AS",
   "license": "MIT",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "prettier": "3.4.2"
+  }
 }
