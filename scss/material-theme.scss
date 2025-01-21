@@ -929,8 +929,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-select-focused-arrow-color: rgba(57, 86, 146, 0.87);
   --mat-select-invalid-arrow-color: rgba(175, 43, 43, 0.87);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-form-field.mat-accent {
+#app-root .mat-mdc-form-field.mat-accent,
+.ur-overlay-container .mat-mdc-form-field.mat-accent {
   --mat-select-panel-background-color: white;
   --mat-select-enabled-trigger-text-color: rgba(0, 0, 0, 0.87);
   --mat-select-disabled-trigger-text-color: rgba(0, 0, 0, 0.38);
@@ -940,8 +940,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-select-focused-arrow-color: rgba(77, 147, 145, 0.87);
   --mat-select-invalid-arrow-color: rgba(175, 43, 43, 0.87);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-form-field.mat-warn {
+#app-root .mat-mdc-form-field.mat-warn,
+.ur-overlay-container .mat-mdc-form-field.mat-warn {
   --mat-select-panel-background-color: white;
   --mat-select-enabled-trigger-text-color: rgba(0, 0, 0, 0.87);
   --mat-select-disabled-trigger-text-color: rgba(0, 0, 0, 0.38);
@@ -1218,12 +1218,12 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mdc-switch-unselected-track-color: #e0e0e0;
   --mdc-switch-disabled-label-text-color: rgba(0, 0, 0, 0.38);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-slide-toggle {
+#app-root .mat-mdc-slide-toggle,
+.ur-overlay-container .mat-mdc-slide-toggle {
   --mdc-form-field-label-text-color: rgba(0, 0, 0, 0.87);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-slide-toggle.mat-accent {
+#app-root .mat-mdc-slide-toggle.mat-accent,
+.ur-overlay-container .mat-mdc-slide-toggle.mat-accent {
   --mdc-switch-selected-focus-state-layer-color: #468b89;
   --mdc-switch-selected-handle-color: #468b89;
   --mdc-switch-selected-hover-state-layer-color: #468b89;
@@ -1236,8 +1236,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mdc-switch-selected-pressed-track-color: #82b3b2;
   --mdc-switch-selected-track-color: #82b3b2;
 }
-#app-root,
-.ur-overlay-container.mat-mdc-slide-toggle.mat-warn {
+#app-root .mat-mdc-slide-toggle.mat-warn,
+.ur-overlay-container .mat-mdc-slide-toggle.mat-warn {
   --mdc-switch-selected-focus-state-layer-color: #a82626;
   --mdc-switch-selected-handle-color: #a82626;
   --mdc-switch-selected-hover-state-layer-color: #a82626;
@@ -1254,8 +1254,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 ::ng-deep .ur-overlay-container {
   --mdc-switch-state-layer-size: 40px;
 }
-#app-root,
-.ur-overlay-container.mat-mdc-slide-toggle {
+#app-root .mat-mdc-slide-toggle,
+.ur-overlay-container .mat-mdc-slide-toggle {
   --mdc-form-field-label-text-font: Roboto, sans-serif;
   --mdc-form-field-label-text-line-height: 20px;
   --mdc-form-field-label-text-size: 14px;
@@ -1370,8 +1370,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-slider-focus-state-layer-color: rgba(57, 86, 146, 0.2);
   --mat-slider-value-indicator-opacity: 0.6;
 }
-#app-root,
-.ur-overlay-container.mat-accent {
+#app-root .mat-accent,
+.ur-overlay-container .mat-accent {
   --mat-slider-ripple-color: #4d9391;
   --mat-slider-hover-state-layer-color: rgba(77, 147, 145, 0.05);
   --mat-slider-focus-state-layer-color: rgba(77, 147, 145, 0.2);
@@ -1383,8 +1383,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mdc-slider-with-tick-marks-inactive-container-color: #4d9391;
   --mdc-slider-with-tick-marks-active-container-color: white;
 }
-#app-root,
-.ur-overlay-container.mat-warn {
+#app-root .mat-warn,
+.ur-overlay-container .mat-warn {
   --mat-slider-ripple-color: #af2b2b;
   --mat-slider-hover-state-layer-color: rgba(175, 43, 43, 0.05);
   --mat-slider-focus-state-layer-color: rgba(175, 43, 43, 0.2);
@@ -2028,20 +2028,20 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-icon-button-focus-state-layer-opacity: 0.12;
   --mat-icon-button-pressed-state-layer-opacity: 0.12;
 }
-#app-root,
-.ur-overlay-container.mat-mdc-icon-button.mat-primary {
+#app-root .mat-mdc-icon-button.mat-primary,
+.ur-overlay-container .mat-mdc-icon-button.mat-primary {
   --mdc-icon-button-icon-color: #395692;
   --mat-icon-button-state-layer-color: #395692;
   --mat-icon-button-ripple-color: rgba(57, 86, 146, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-icon-button.mat-accent {
+#app-root .mat-mdc-icon-button.mat-accent,
+.ur-overlay-container .mat-mdc-icon-button.mat-accent {
   --mdc-icon-button-icon-color: #4d9391;
   --mat-icon-button-state-layer-color: #4d9391;
   --mat-icon-button-ripple-color: rgba(77, 147, 145, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-icon-button.mat-warn {
+#app-root .mat-mdc-icon-button.mat-warn,
+.ur-overlay-container .mat-mdc-icon-button.mat-warn {
   --mdc-icon-button-icon-color: #af2b2b;
   --mat-icon-button-state-layer-color: #af2b2b;
   --mat-icon-button-ripple-color: rgba(175, 43, 43, 0.1);
@@ -2126,43 +2126,43 @@ textarea.cdk-textarea-autosize-measuring-firefox {
     0px 12px 17px 2px rgba(0, 0, 0, 0.14), 0px 5px 22px 4px rgba(0, 0, 0, 0.12);
   --mdc-extended-fab-container-shadow-color: #000;
 }
-#app-root,
-.ur-overlay-container.mat-mdc-fab.mat-primary {
+#app-root .mat-mdc-fab.mat-primary,
+.ur-overlay-container .mat-mdc-fab.mat-primary {
   --mdc-fab-container-color: #395692;
   --mat-fab-foreground-color: white;
   --mat-fab-state-layer-color: white;
   --mat-fab-ripple-color: rgba(255, 255, 255, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-fab.mat-accent {
+#app-root .mat-mdc-fab.mat-accent,
+.ur-overlay-container .mat-mdc-fab.mat-accent {
   --mdc-fab-container-color: #4d9391;
   --mat-fab-foreground-color: white;
   --mat-fab-state-layer-color: white;
   --mat-fab-ripple-color: rgba(255, 255, 255, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-fab.mat-warn {
+#app-root .mat-mdc-fab.mat-warn,
+.ur-overlay-container .mat-mdc-fab.mat-warn {
   --mdc-fab-container-color: #af2b2b;
   --mat-fab-foreground-color: white;
   --mat-fab-state-layer-color: white;
   --mat-fab-ripple-color: rgba(255, 255, 255, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-mini-fab.mat-primary {
+#app-root .mat-mdc-mini-fab.mat-primary,
+.ur-overlay-container .mat-mdc-mini-fab.mat-primary {
   --mdc-fab-small-container-color: #395692;
   --mat-fab-small-foreground-color: white;
   --mat-fab-small-state-layer-color: white;
   --mat-fab-small-ripple-color: rgba(255, 255, 255, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-mini-fab.mat-accent {
+#app-root .mat-mdc-mini-fab.mat-accent,
+.ur-overlay-container .mat-mdc-mini-fab.mat-accent {
   --mdc-fab-small-container-color: #4d9391;
   --mat-fab-small-foreground-color: white;
   --mat-fab-small-state-layer-color: white;
   --mat-fab-small-ripple-color: rgba(255, 255, 255, 0.1);
 }
-#app-root,
-.ur-overlay-container.mat-mdc-mini-fab.mat-warn {
+#app-root .mat-mdc-mini-fab.mat-warn,
+.ur-overlay-container .mat-mdc-mini-fab.mat-warn {
   --mdc-fab-small-container-color: #af2b2b;
   --mat-fab-small-foreground-color: white;
   --mat-fab-small-state-layer-color: white;
@@ -2241,12 +2241,12 @@ textarea.cdk-textarea-autosize-measuring-firefox {
 ::ng-deep .ur-overlay-container {
   --mdc-circular-progress-active-indicator-color: #395692;
 }
-#app-root,
-.ur-overlay-container.mat-accent {
+#app-root .mat-accent,
+.ur-overlay-container .mat-accent {
   --mdc-circular-progress-active-indicator-color: #4d9391;
 }
-#app-root,
-.ur-overlay-container.mat-warn {
+#app-root .mat-warn,
+.ur-overlay-container .mat-warn {
   --mdc-circular-progress-active-indicator-color: #af2b2b;
 }
 #app-root,
@@ -2643,8 +2643,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-stepper-header-error-state-icon-foreground-color: #af2b2b;
   --mat-stepper-header-error-state-icon-background-color: transparent;
 }
-#app-root,
-.ur-overlay-container.mat-step-header.mat-accent {
+#app-root .mat-step-header.mat-accent,
+.ur-overlay-container .mat-step-header.mat-accent {
   --mat-stepper-header-icon-foreground-color: white;
   --mat-stepper-header-selected-state-icon-background-color: #4d9391;
   --mat-stepper-header-selected-state-icon-foreground-color: white;
@@ -2653,8 +2653,8 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-stepper-header-edit-state-icon-background-color: #4d9391;
   --mat-stepper-header-edit-state-icon-foreground-color: white;
 }
-#app-root,
-.ur-overlay-container.mat-step-header.mat-warn {
+#app-root .mat-step-header.mat-warn,
+.ur-overlay-container .mat-step-header.mat-warn {
   --mat-stepper-header-icon-foreground-color: white;
   --mat-stepper-header-selected-state-icon-background-color: #af2b2b;
   --mat-stepper-header-selected-state-icon-foreground-color: white;
