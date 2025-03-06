@@ -2643,8 +2643,9 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-stepper-header-error-state-icon-foreground-color: #af2b2b;
   --mat-stepper-header-error-state-icon-background-color: transparent;
 }
-#app-root .mat-step-header.mat-accent,
-.ur-overlay-container .mat-step-header.mat-accent {
+#app-root,
+::ng-deep .mat-step-header.mat-accent,
+::ng-deep .ur-overlay-container .mat-step-header.mat-accent {
   --mat-stepper-header-icon-foreground-color: white;
   --mat-stepper-header-selected-state-icon-background-color: #4d9391;
   --mat-stepper-header-selected-state-icon-foreground-color: white;
@@ -2653,8 +2654,9 @@ textarea.cdk-textarea-autosize-measuring-firefox {
   --mat-stepper-header-edit-state-icon-background-color: #4d9391;
   --mat-stepper-header-edit-state-icon-foreground-color: white;
 }
-#app-root .mat-step-header.mat-warn,
-.ur-overlay-container .mat-step-header.mat-warn {
+#app-root,
+::ng-deep .mat-step-header.mat-warn,
+::ng-deep .ur-overlay-container .mat-step-header.mat-warn {
   --mat-stepper-header-icon-foreground-color: white;
   --mat-stepper-header-selected-state-icon-background-color: #af2b2b;
   --mat-stepper-header-selected-state-icon-foreground-color: white;
