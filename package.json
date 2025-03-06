@@ -1,6 +1,6 @@
 {
   "name": "polyscope-x-material-theme",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "main": "index.scss",
   "style": "index.scss",
   "scripts": {
