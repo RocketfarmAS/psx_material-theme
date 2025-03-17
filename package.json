@@ -8,7 +8,9 @@
   },
   "author": "Rocketfarm AS",
   "license": "MIT",
-  "description": "",
+  "description": "Use Google's Material Theme in your URCapX frontend contribution.",
+  "repository": "github:RocketfarmAS/psx_material-theme",
+  "homepage": "https://rocketfarm.no/",
   "devDependencies": {
     "prettier": "3.4.2"
   }
