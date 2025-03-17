@@ -60,7 +60,7 @@
   position: absolute;
   z-index: 1000;
 }
-.cdk-overlay-pane {
+::ng-deep .cdk-overlay-pane {
   position: absolute;
   pointer-events: auto;
   box-sizing: border-box;
@@ -104,7 +104,7 @@
 .cdk-overlay-backdrop-noop-animation {
   transition: none;
 }
-.cdk-overlay-connected-position-bounding-box {
+::ng-deep .cdk-overlay-connected-position-bounding-box {
   position: absolute;
   z-index: 1000;
   display: flex;
