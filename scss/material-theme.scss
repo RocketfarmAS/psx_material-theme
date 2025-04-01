@@ -18,10 +18,10 @@
   transform: scale3d(0, 0, 0);
   background-color: var(--mat-ripple-color, rgba(0, 0, 0, 0.1));
 }
-.cdk-high-contrast-active .mat-ripple-element {
+::ng-deep .cdk-high-contrast-active .mat-ripple-element {
   display: none;
 }
-.cdk-visually-hidden {
+::ng-deep .cdk-visually-hidden {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -36,7 +36,7 @@
   -moz-appearance: none;
   left: 0;
 }
-[dir="rtl"] .cdk-visually-hidden {
+::ng-deep [dir="rtl"] .cdk-visually-hidden {
   left: auto;
   right: 0;
 }
@@ -84,7 +84,9 @@
 ::ng-deep .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
   opacity: 1;
 }
-::ng-deep .cdk-high-contrast-active .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
+::ng-deep
+  .cdk-high-contrast-active
+  .cdk-overlay-backdrop.cdk-overlay-backdrop-showing {
   opacity: 0.6;
 }
 ::ng-deep .cdk-overlay-dark-backdrop {
@@ -117,16 +119,16 @@
   width: 100%;
   overflow-y: scroll;
 }
-textarea.cdk-textarea-autosize {
+::ng-deep textarea.cdk-textarea-autosize {
   resize: none;
 }
-textarea.cdk-textarea-autosize-measuring {
+::ng-deep textarea.cdk-textarea-autosize-measuring {
   padding: 2px 0 !important;
   box-sizing: content-box !important;
   height: auto !important;
   overflow: hidden !important;
 }
-textarea.cdk-textarea-autosize-measuring-firefox {
+::ng-deep textarea.cdk-textarea-autosize-measuring-firefox {
   padding: 2px 0 !important;
   box-sizing: content-box !important;
   height: 0 !important;
